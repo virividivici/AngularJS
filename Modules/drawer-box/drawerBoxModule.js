@@ -13,7 +13,7 @@ angular.module('drawerBoxModule', [])
           }
       
         var out = [];
-        console.log('***********', input.length);
+        
         for (var i = 0; i < input.length; i++) {
         
           var rowElementIndex = i % itemsPerRow;
